@@ -1,13 +1,24 @@
 :root{
-    --body-text:#434455;
-    --NAVY-BLUE:#2E2F42;
-    --IRIS:#4D5AE5;
-    --OCEAN:#404BBF;
+ --IRIS:#4D5AE5;
+ --OCEAN:#404BBF;
+ --NAVY-BLUE:#2E2F42;
+ --GREEN:#31D0AA;
+ --SLATE:#434455;
+ --LIGHT-SLATE:#8E8F99;
+ --CORNFLOWER:#E7E9FC;
+ --CLOUD:#F4F4FD;
+ --NAVY-BLUE-MODAL:#2E2F42;
+ --GREY:#2E2F42;
+ --WHITE:#FFFFFF;
+
+    
+ 
 }
 body{
-     color:var(--body-text);
+     color:var(--SLATE);
      font-family: 'Roboto', sans-serif;
-     background: #FFFFFF;
+     font-family: inherit;
+     background:var(--WHITE);
 }
 .list{
     list-style: none;
@@ -40,9 +51,6 @@ color: var(--NAVY-BLUE);
 .menu-link:focus{
     color:var(--OCEAN);
 }
-.adress{
-    font-style: normal;
-}
 .mail,
 .phone-number{
 font-style: normal;
@@ -50,7 +58,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--body-text);
+color: var(--SLATE);
 }
 .mail:hover,
 .mail:focus{
@@ -68,7 +76,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
- color: #FFFFFF; 
+ color:var(--WHITE); 
 }
 .btn{
 font-weight: 500;
@@ -76,7 +84,7 @@ font-size: 16px;
 line-height: 1.5;
 align-items: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--WHITE);
 background: var(--IRIS);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -100,12 +108,12 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--body-text);
+color: var(--SLATE);
 }
 
 /* ==========/ОСОБЕННОСТИ========== */
 /* ==========What are we doing========== */
-.team{ background: #F4F4FD;}
+.team{ background:var(--CLOUD);}
 
 .subject{
 font-weight: 700;
@@ -122,13 +130,13 @@ color: var(--NAVY-BLUE)
 background:var(--NAVY-BLUE);
 }
 .logo-footer{
-    color: #F4F4FD;
+    color:var(--CLOUD);
 }
 .text-footer{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:  #F4F4FD;
+color:  var(--CLOUD);
 }
 /* ==========FOOTER========== */
