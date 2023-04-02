@@ -51,7 +51,8 @@ color: var(--NAVY-BLUE);
 .contacts{
     font-style: normal; 
 } 
-.mail, .phone{
+.contact-link{
+text-decoration: none;
 font-family: inherit;
 font-style: normal; 
 font-weight: 400;
@@ -60,8 +61,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--SLATE);
 }
-.mail:hover,
-.mail:focus{
+.contact-link:hover,
+.contact-link:focus{
     color:var(--OCEAN);
 }
 /* ==========/HEADER========== */
