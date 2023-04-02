@@ -10,14 +10,15 @@
  --NAVY-BLUE-MODAL:#2E2F42;
  --GREY:#2E2F42;
  --WHITE:#FFFFFF;
+ 
 
     
  
 }
 body{
      color:var(--SLATE);
-     font-family: 'Roboto', sans-serif;
-     font-family: inherit;
+     font-family: "Roboto", sans-serif;
+    
      background:var(--WHITE);
 }
 .list{
@@ -51,8 +52,12 @@ color: var(--NAVY-BLUE);
 .menu-link:focus{
     color:var(--OCEAN);
 }
+.contacts{
+    font-style: normal;
+}
 .mail,
 .phone-number{
+font-family: inherit;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -79,6 +84,7 @@ letter-spacing: 0.02em;
  color:var(--WHITE); 
 }
 .btn{
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -140,3 +146,24 @@ letter-spacing: 0.02em;
 color:  var(--CLOUD);
 }
 /* ==========FOOTER========== */
+.scrolls{
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+
+/* IRIS */
+
+color:var(--IRIS) #4D5AE5;
+background-color:var(--CLOUD);
+}
+.scrolls:focus,
+.scrolls:hover{
+    color: var(--WHITE);
+    background-color:var(--OCEAN);
+}
+.work-link{
+    font-family: inherit;
+}
