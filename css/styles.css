@@ -53,12 +53,12 @@ color: var(--NAVY-BLUE);
     color:var(--OCEAN);
 }
 .contacts{
-    /* font-style: normal; */
+    font-style: normal; 
 } 
 .mail,
 .phone-number{
 font-family: inherit;
-/* font-style: normal; */
+font-style: normal; 
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -132,7 +132,8 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: var(--NAVY-BLUE)
+color: var(--NAVY-BLUE);
+background-color:var(--CLOUD);
 }
 /* ==========/What are we doing========== */
 /* ==========FOOTER========== */
@@ -157,11 +158,9 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-
-/* IRIS */
-
 color:var(--IRIS);
-background-color:var(--CLOUD);
+background-color:var(--WHITE);
+cursor: pointer;
 }
 .scrolls:hover,
 .scrolls:focus{
