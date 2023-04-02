@@ -9,16 +9,12 @@
  --CLOUD:#F4F4FD;
  --NAVY-BLUE-MODAL:#2E2F42;
  --GREY:#2E2F42;
- --WHITE:#FFFFFF;
- 
-
-    
- 
+ --WHITE:#FFFFFF; 
 }
+
 body{
      color:var(--SLATE);
      font-family: "Roboto", sans-serif;
-    
      background:var(--WHITE);
 }
 .list{
@@ -79,7 +75,10 @@ color: var(--SLATE);
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-text-align: center;
+/* text-align: center; */
+/* position: absolute; */
+width: 496px;
+height: 120px;
 letter-spacing: 0.02em;
  color:var(--WHITE); 
 }
@@ -118,28 +117,35 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--SLATE);
 }
-
 /* ==========/ОСОБЕННОСТИ========== */
+
 /* ==========What are we doing========== */
-.team{ 
- background-color:var(--CLOUD);
-}
 
 
 .subject{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-text-align: center;
+/* text-align: center; */
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--NAVY-BLUE);
-background-color:var(--CLOUD); 
+background-color:var(--WHITE); 
 }
-.team-list{
-  background-color:var(--WHITE); 
+.team-group{
+    background-color: var(--WHITE);
 }
 /* ==========/What are we doing========== */
+
+/* ==========TEAM========== */
+.team{ 
+ background-color:var(--CLOUD);
+}
+.team-list{
+  background-color:var(--CLOUD); }
+
+/* ==========/TEAM========== */
+
 /* ==========FOOTER========== */
 .footer-stile{
 background:var(--NAVY-BLUE);
