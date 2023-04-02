@@ -7,6 +7,7 @@
 body{
      color:var(--body-text);
      font-family: 'Roboto', sans-serif;
+     background: #FFFFFF;
 }
 .list{
     list-style: none;
@@ -19,7 +20,7 @@ body{
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--IRIS);
@@ -39,6 +40,9 @@ color: var(--NAVY-BLUE);
 .menu-link:focus{
     color:var(--OCEAN);
 }
+.adress{
+    font-style: normal;
+}
 .mail,
 .phone-number{
 font-style: normal;
@@ -55,14 +59,16 @@ color: var(--body-text);
 /* ==========/HEADER========== */
 
 /* ==========HERO========== */
-
+.hero{
+    background-color:var(--NAVY-BLUE);
+}
 .hero-title{
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-/* color: #FFFFFF; */
+ color: #FFFFFF; 
 }
 .btn{
 font-weight: 500;
@@ -74,6 +80,7 @@ color: #FFFFFF;
 background: var(--IRIS);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+cursor: pointer;
 }
 .btn:hover,
 .btn:focus{
@@ -98,6 +105,8 @@ color: var(--body-text);
 
 /* ==========/ОСОБЕННОСТИ========== */
 /* ==========What are we doing========== */
+.team{ background: #F4F4FD;}
+
 .subject{
 font-weight: 700;
 font-size: 36px;
