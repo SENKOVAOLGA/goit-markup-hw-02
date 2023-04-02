@@ -122,7 +122,8 @@ color: var(--SLATE);
 /* ==========/ОСОБЕННОСТИ========== */
 /* ==========What are we doing========== */
 .team{ 
- background-color:var(--CLOUD);}
+ background-color:var(--CLOUD);
+}
 
 
 .subject{
@@ -133,7 +134,10 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--NAVY-BLUE);
-/* background-color:var(--CLOUD); */
+background-color:var(--CLOUD); 
+}
+.team-list{
+  background-color:var(--WHITE); 
 }
 /* ==========/What are we doing========== */
 /* ==========FOOTER========== */
