@@ -102,9 +102,7 @@ cursor: pointer;
 }
 /* ==========/HERO========== */
 /* ==========ОСОБЕННОСТИ========== */
-.hang{
 
-}
 .subtitle{
 font-weight: 500;
 font-size: 20px;
@@ -123,7 +121,7 @@ color: var(--SLATE);
 /* ==========/ОСОБЕННОСТИ========== */
 /* ==========What are we doing========== */
 .team{ 
- background-color:var(--WHITE)}
+ background-color:var(--WHITE);}
 
 .subject{
 font-weight: 700;
@@ -153,7 +151,7 @@ color:  var(--CLOUD);
 /* ==========FOOTER========== */
 .scrolls{
 font-family: inherit;
-/* font-style: normal; */
+ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
