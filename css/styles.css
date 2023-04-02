@@ -109,6 +109,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--NAVY-BLUE);
+background-color: var(--WHITE);
 }
 .text{
 font-weight: 400;
@@ -131,7 +132,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--NAVY-BLUE);
-background-color:var(--CLOUD);
+/* background-color:var(--CLOUD); */
 }
 /* ==========/What are we doing========== */
 /* ==========FOOTER========== */
