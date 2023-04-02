@@ -52,11 +52,11 @@ color: var(--NAVY-BLUE);
 .menu-link:focus{
     color:var(--OCEAN);
 }
-.contacts{
+/* .contacts{
     font-style: normal;
-}
+} */
 .mail,
-.phone-number{
+.phone{
 font-family: inherit;
 font-style: normal;
 font-weight: 400;
@@ -102,6 +102,9 @@ cursor: pointer;
 }
 /* ==========/HERO========== */
 /* ==========ОСОБЕННОСТИ========== */
+.hang{
+
+}
 .subtitle{
 font-weight: 500;
 font-size: 20px;
@@ -119,7 +122,8 @@ color: var(--SLATE);
 
 /* ==========/ОСОБЕННОСТИ========== */
 /* ==========What are we doing========== */
-.team{ background:var(--CLOUD);}
+.team{ 
+ background-color:var(--WHITE)}
 
 .subject{
 font-weight: 700;
@@ -156,11 +160,11 @@ letter-spacing: 0.04em;
 
 /* IRIS */
 
-color:var(--IRIS) #4D5AE5;
+color:var(--IRIS);
 background-color:var(--CLOUD);
 }
-.scrolls:focus,
-.scrolls:hover{
+.scrolls:hover,
+.scrolls:focus{
     color: var(--WHITE);
     background-color:var(--OCEAN);
 }
